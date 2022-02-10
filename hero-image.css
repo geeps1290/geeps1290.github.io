@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f7f5f0;
+}
+
+header {
+  overflow: hidden;
+  padding-top: 40px;
+  line-height: 1.5;
+}
+
+.hero-titles {
+  padding-top: 10px;
+}
+
+.title {
+ text-align: right;
+ margin: 50px 50px 0 50px;
+ padding: 50px 0 0 50px;
+ color: #5499c7;
+ font-size: 48px;
+}
+
+.subtitle {
+ text-align: right;
+ margin: 0 50px 50px 50px;
+ padding: 0 0px 50px 50px;
+ color: #fff;
+ font-size: 20px;
+ font-weight: lighter;
+ font-style: italic;
+}
+
+.hero-image {
+  background-color: #cccccc;
+  background-image: url("images/cornwall.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  background-size: cover;
+}
+
+.btn {
+  position: absolute;
+  top: 582px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 14px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
